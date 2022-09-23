@@ -1,0 +1,17 @@
+{
+  "name": "andriilive/wp-disable-generated-image-sizes",
+  "description": "wp-acf-extended-config",
+  "keywords": ["wordpress", "plugin"],
+  "homepage": "https://github.com/andriilive/wp-acf-extended-config",
+  "authors": [
+    {
+      "name": "DigitalAndy",
+      "homepage": "https://github.com/andriilive"
+    }
+  ],
+  "license": "Apache-2.0",
+  "type": "wordpress-muplugin",
+  "require": {
+    "php": ">=5.6"
+  }
+}
