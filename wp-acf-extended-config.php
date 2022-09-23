@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:     Wp Acf Extended Config
- * Plugin URI:      https://digitalandy.eu
- * Description:     PLUGIN DESCRIPTION HERE
- * Author:          YOUR NAME HERE
+ * Plugin URI:      https://github.com/andriilive/wp-acf-extended-config
+ * Description:     Wp Acf Extended Config
+ * Author:          DigitalAndy (@digitalandy.eu)
  * Author URI:      https://digitalandy.eu
  * Version:         0.1.0
  *
