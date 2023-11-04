@@ -2,7 +2,7 @@
   "name": "andriilive/wp-acf-extended-config",
   "description": "wp-acf-extended-config",
   "keywords": ["wordpress", "plugin"],
-  "homepage": "https://github.com/andriilive/wp-acf-extended-config",
+  "homepage": "https://github.com/andriilive/wp-acf-extended-config/tree/plugin",
   "authors": [
     {
       "name": "DigitalAndy",
@@ -10,7 +10,7 @@
     }
   ],
   "license": "Apache-2.0",
-  "type": "wordpress-muplugin",
+  "type": "wordpress-plugin",
   "require": {
     "php": ">=5.6"
   }
