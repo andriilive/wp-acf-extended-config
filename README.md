@@ -7,7 +7,7 @@
 
 To install as regular plugin use `composer require andriilive/wp-acf-extended-config:dev-plugin`
 
-`wp-acf-extended-config` plugin completely and for real disables WordPress &amp; plugins image sizes generation with no need for configuration
+`wp-acf-extended-config` plugin activates acfe debug mode for 'development' environment or if `WP_DEBUG` is `true`
 
 +  Last update: June 2021
 +  No need for configuration. Activate and go
