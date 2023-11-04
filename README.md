@@ -18,7 +18,7 @@ To install as regular plugin use `composer require andriilive/wp-acf-extended-co
 
 - Requires WP at least: `4.5`
 - Tested up to WP: `5.7.2`
-- Requires PHP: `7.1`
+- Requires PHP: `>=8.0`
 
 ## Install & Activate plugin
 
