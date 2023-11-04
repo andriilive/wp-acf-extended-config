@@ -1,5 +1,12 @@
 # Wp Acf Extended Config
 
+## Regular plugin vs mu-plugin
+
+- as mu-plugin (recommended): [main branch](https://github.com/andriilive/wp-acf-extended-config)
+- as regular plugin: [plugin branch](https://github.com/andriilive/wp-acf-extended-config/tree/plugin)
+
+To install as regular plugin use `composer require andriilive/wp-acf-extended-config:dev-plugin`
+
 `wp-acf-extended-config` plugin completely and for real disables WordPress &amp; plugins image sizes generation with no need for configuration
 
 +  Last update: June 2021
