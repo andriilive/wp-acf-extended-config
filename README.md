@@ -28,7 +28,7 @@ To install as regular plugin use `composer require andriilive/wp-acf-extended-co
 
 ### ZIP Upload
 
-1. Download `wp-acf-extended-config.zip` from [here](https://github.com/andriilive/wp-acf-extended-config/archive/refs/tags/0.1.2.zip)
+1. Download `wp-acf-extended-config.zip` from [here](https://github.com/andriilive/wp-acf-extended-config/archive/refs/tags/0.1.3.zip)
 2. Login to Wordpress Admin Dashboard
 2. Navigate to `Plugins` > `Add new`
 3. Press `Upload Plugin` and chose `wp-acf-extended-config.zip`
