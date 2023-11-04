@@ -12,24 +12,33 @@
 
 // Your code starts here.
 
+if (!defined('ABSPATH')) {
+	exit;
+} // Exit if accessed directly
+
 // Removes the <p> wrap from ACF WYSIWYG @see https://support.advancedcustomfields.com/forums/topic/removing-paragraph-tags-from-wysiwyg-fields/
 add_action('acf/init', fn() => remove_filter('acf_the_content', 'wpautop'));
 
-add_action('acfe/init', function () {
+if (class_exists('ACFE')) {
 
-    if (!defined(WP_DEBUG) && !defined(WP_ENV)) return;
+	// Enable ACF Extended Dev Mode
+	add_action('acfe/init', function () {
 
-    if (WP_DEBUG || WP_ENV === 'development') {
-        acf_update_setting('acfe/dev', true);
-    }
-});
+		if (!defined(WP_DEBUG) && !defined(WP_ENV)) return;
 
-add_action('acfe/init', function () {
-    acf_update_setting('acfe/modules/single_meta', true);
-});
+		if (WP_DEBUG || WP_ENV === 'development') {
+			acf_update_setting('acfe/dev', true);
+		}
+	});
 
+//	add_action('acfe/init', function () {
+//	    acf_update_setting('acfe/modules/single_meta', true);
+//	});
+//
+//
+//	add_filter('acf/load_field_group', function ($field_group) {
+//	    $field_group['acfe_autosync'] = ['json','php'];
+//	    return $field_group;
+//	});
 
-add_filter('acf/load_field_group', function ($field_group) {
-    $field_group['acfe_autosync'] = ['json','php'];
-    return $field_group;
-});
+}
